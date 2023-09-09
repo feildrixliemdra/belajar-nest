@@ -35,6 +35,8 @@ $ npm install
 ## Running the app
 
 ```bash
+#copy .env
+$ cp .env.example .env and make sure to configure DATABASE value in your .env
 # development
 $ npm run start
 
@@ -71,3 +73,4 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+git push -u origin master
